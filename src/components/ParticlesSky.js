@@ -1,21 +1,11 @@
 import React from 'react'
 import Particles from "react-tsparticles"
 
-export default function Planets() {
-    const particlesInit = (main) => {
-        console.log(main);
-    };
-
-    const particlesLoaded = (container) => {
-        console.log(container);
-    };
-
+export default function ParticlesSky() {
     return (
         <div id="planets-particles-container">
             <Particles
                 id="tsparticles"
-                init={particlesInit}
-                loaded={particlesLoaded}
                 options={{
                     background: {
                         color: {

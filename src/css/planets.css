@@ -1,6 +1,22 @@
-canvas {
-    display: block;
-    vertical-align: bottom;
-    background-color: #17182f;
+/* PLANETS  */
+.planets-container {
+    width: 70rem;
+    height: 80vh;
+    margin: 1rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 190;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0);
 }
-  
+
+.planet-img {
+    transition: 1s ease;
+}
+
+.planet-img:hover {
+    transform: scale(1.1,1.1);
+}

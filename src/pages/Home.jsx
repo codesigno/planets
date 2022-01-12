@@ -1,9 +1,10 @@
 import React from 'react'
+import SolarSystem from '../components/SolarSystem'
 
 export default function Home() {
     return (
         <div>
-            <h1>home</h1>
+            <SolarSystem />
         </div>
     )
 }
