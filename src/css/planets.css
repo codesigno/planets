@@ -1,6 +1,80 @@
-canvas {
-    display: block;
-    vertical-align: bottom;
-    background-color: #17182f;
+/* PLANETS  */
+.planets-container {
+    width: 77rem;
+    height: 95vh;
+    margin: 1rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 190;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0);
 }
-  
+
+.planet-img {
+    margin: 0 0.1rem;
+    transition: 1s ease;
+    cursor: pointer;
+}
+
+.planet-img:hover {
+    transform: scale(1.1,1.1);
+}
+
+/* PLANET VIEW */
+.planet-view {
+    width: 99vw;
+    height: 100vh;
+    padding: 1rem 0;
+    position: fixed;
+    top: 0;
+    z-index: 300;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(214, 241, 241);
+    background-color: rgba(0, 0, 0, 0.877);
+}
+
+.planet-view h3 {
+    font-size: 1.6em;
+    margin-top: 1rem;
+}
+
+.descr {
+    width: 35rem;
+    padding: 1rem;
+    font-size: 1.1em;
+}
+
+.planet-info {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.planet-info p {
+    margin: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #929a9c;
+}
+
+.highlight {
+    font-size: 1.3em;
+    color: #f0fcff;
+}
+
+.close-btn {
+    align-self: flex-end;
+    margin-right: 1rem;
+    font-size: 2em;
+    color: #f0fcff;
+}
+
+.close-btn:hover {
+    color: #daf6f8a4;
+}

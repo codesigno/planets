@@ -1,15 +1,17 @@
-import { BrowserRouter } from 'react-router-dom';
-import RoutesNavBar from './RoutesNavBar';
-import Navbar from './components/Navbar';
+// import { BrowserRouter } from 'react-router-dom';
 import './css/App.css';
+import SolarSystem from './components/SolarSystem';
+import Planets from './pages/Planets';
 
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <SolarSystem />
+      <Planets />
+      {/* <BrowserRouter>
         <Navbar />
         <RoutesNavBar />
-      </BrowserRouter>
+      </BrowserRouter> */}
     </div>
   );
 }
