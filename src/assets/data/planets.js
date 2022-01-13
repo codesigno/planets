@@ -6,7 +6,7 @@ const planets = [
         rotationTime: 58.6,
         revolutionTime: 87.97,
         radius: "2,439.7 KM",
-        averageTemp: "430°c",
+        averageTemp: "430°",
         img: "./assets/img/planets/mercury.png"
     },
     {
@@ -16,7 +16,7 @@ const planets = [
         rotationTime: 243,
         revolutionTime: 224.7,
         radius: "6,051.8 KM",
-        averageTemp: "471°c",
+        averageTemp: "471°",
         img: "./assets/img/planets/venus.png"
     },
     {
@@ -26,7 +26,7 @@ const planets = [
         rotationTime: 0.99,
         revolutionTime: 365.26,
         radius: "6,371 KM",
-        averageTemp: "16°c",
+        averageTemp: "16°",
         img: "./assets/img/planets/earth.png"
     },
     {
@@ -36,7 +36,7 @@ const planets = [
         rotationTime: 1.03,
         revolutionTime: 1.88,
         radius: "3,389.5 KM",
-        averageTemp: "-28°c",
+        averageTemp: "-28°",
         img: "./assets/img/planets/mars.png"
     },
     {
@@ -46,7 +46,7 @@ const planets = [
         rotationTime: 9.93,
         revolutionTime: 11.86,
         radius: "69,911 KM",
-        averageTemp: "-108°c",
+        averageTemp: "-108°",
         img: "./assets/img/planets/jupiter.png"
     },
     {
@@ -56,7 +56,7 @@ const planets = [
         rotationTime: 10.8,
         revolutionTime: 29.46,
         radius: "58,232 KM",
-        averageTemp: "-138°c",
+        averageTemp: "-138°",
         img: "./assets/img/planets/saturn.png"
     },
     {
@@ -66,7 +66,7 @@ const planets = [
         rotationTime: 17.2,
         revolutionTime: 84,
         radius: "25,362 KM",
-        averageTemp: "-195°c",
+        averageTemp: "-195°",
         img: "./assets/img/planets/uranus.png"
     },
     {
@@ -76,7 +76,7 @@ const planets = [
         rotationTime: 16.08,
         revolutionTime: 164.79,
         radius: "24,622 KM",
-        averageTemp: "-201°c",
+        averageTemp: "-201°",
         img: "./assets/img/planets/neptune.png"
     },
     {
@@ -86,7 +86,7 @@ const planets = [
         rotationTime: 6.4,
         revolutionTime: 248,
         radius: "1.185 KM",
-        averageTemp: "-387°c",
+        averageTemp: "-387°",
         img: "./assets/img/planets/pluto.png"
     }
 ]
