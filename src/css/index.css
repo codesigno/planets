@@ -19,3 +19,61 @@ body {
   border: none;
   cursor: pointer;
 }
+
+.txt-vertical {
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  letter-spacing: 0.1em;
+  word-spacing: 0.5em;
+  color: #a7b7b8;
+}
+
+.icon {
+  font-size: 1.5em;
+  color: #a7b7b8;
+}
+
+a {
+  font-weight: bold;
+  color: #a7b7b8;
+  opacity: 0.5;
+}
+
+a:hover {
+  transform: scale(1.1, 1.1);
+}
+
+header {
+  width: 98vw;
+  padding: 0.5rem;
+  position: sticky;
+  top: 0;
+  z-index: 9;
+  background: rgba(12, 12, 15, 0.329);
+}
+
+.center {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* space page */
+.info-container {
+  position: relative;
+  z-index: 10;
+  color: #eff6f77c;
+}
+
+/* NOT FOUND */
+.not-found-info {
+  position: relative;
+  z-index: 10;
+  color: #a7b7b8;
+  opacity: 0.5;
+}
+.not-found-404 {
+  font-size: 8rem;
+}

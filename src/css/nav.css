@@ -1,0 +1,113 @@
+/* NAV */
+.nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .menu {
+      display:  inline-block;
+      width: 1rem;
+      height: 0.8rem;
+      margin-top: 0.9rem;
+      animation: menu2 1s ease-in;
+  }
+  .menu span {
+      margin: 0 auto;
+  }
+  .menu span:before, .menu span:after {
+      position: absolute;
+      content: '';
+  }
+  .menu span, .menu span:before, .menu span:after {
+      width: 1.5rem;
+      height: 0.23rem;
+      background-color: #a7b7b8;
+      display: block;
+  }
+  .menu span:before {
+      margin-top: -10px;
+  }
+  .menu span:after {
+      margin-top: 10px;
+  }
+  
+  /* menu icon */
+  .menu-icon span {
+      -webkit-transition-duration: 0s; transition-duration: 0s;
+      -webkit-transition-delay: 0.2s; transition-delay: 0.2s;
+  }
+  .menu-icon:hover span {
+      background-color: rgba(0,0,0,0.0);
+      -webkit-transition-delay: 0.2s; transition-delay: 0.2s;
+  }
+  .menu-icon span:before {
+      -webkit-transition-property: margin, -webkit-transform; transition-property: margin, transform;
+      -webkit-transition-duration: 0.2s; transition-duration: 0.2s;
+      -webkit-transition-delay: 0.2s, 0s; transition-delay: 0.2s, 0s;
+  }
+  .menu-icon:hover span:before {
+      margin-top: 0;
+      -webkit-transform: rotate(45deg); transform: rotate(45deg);
+      -webkit-transition-delay: 0s, 0.2s; transition-delay: 0s, 0.2s;
+  }
+  .menu-icon span:after {
+      -webkit-transition-property: margin, -webkit-transform; transition-property: margin, transform;
+      -webkit-transition-duration: 0.2s; transition-duration: 0.2s;
+      -webkit-transition-delay: 0.2s, 0s; transition-delay: 0.2s, 0s;
+  }
+  .menu-icon:hover span:after {
+      margin-top: 0;
+      -webkit-transform: rotate(-45deg); transform: rotate(-45deg);
+      -webkit-transition-delay: 0s, 0.2s; transition-delay: 0s, 0.2s;
+  }
+  
+  /* hidden menu */
+  .hidden-menu {
+    /* visibility: hidden; */
+    height: 0vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* transition: 1s ease-in; */
+    /* animation: menu2 1s ease-in; */
+    animation: menu2link 1s ease-in;
+  }
+  
+  .hidden-menu a {
+    color: rgba(255, 255, 255, 0);
+  }
+  
+  .menu a:hover {
+    color: rgba(255, 255, 255, 0.945);
+  }
+  
+  .hidden-menu:hover {
+    visibility: visible;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  @keyframes menu2 {
+    from {
+      visibility: hidden;
+      height: 0vh;
+      color: rgba(255, 255, 255, 0);
+    }
+    to {
+      visibility: visible;
+      height: 50vh;
+      color: #fff;
+    }
+  }
+  
+  @keyframes menu2link {
+    from {
+      color: rgba(255, 255, 255, 0);
+    }
+    to {
+      color: #fff;
+    }
+  }
+  

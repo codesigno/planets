@@ -1,6 +1,17 @@
 /* PLANETS  */
+.planets {
+    /* display: flex; */
+    position: relative;
+}
+
+.planets h2 {
+    position: absolute;
+    top: 42%;
+    z-index: 10;
+}
+
 .planets-container {
-    width: 77rem;
+    width: 72rem;
     height: 95vh;
     margin: 1rem auto;
     display: flex;
@@ -8,6 +19,8 @@
     justify-content: center;
     align-items: center;
     position: relative;
+    top: 0;
+    left: 0;
     z-index: 190;
     color: aliceblue;
     background-color: rgba(0, 0, 0, 0);
