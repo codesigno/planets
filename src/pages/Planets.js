@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import ParticlesSky from '../components/ParticlesSky'
 import planetsData from '../assets/data/planets'
 import '../css/planets.css'
-import closeIcon from '../assets/img/close.png'
 
 
 export default function Planets() {
@@ -18,7 +17,6 @@ export default function Planets() {
 
     // CLOSE PLANET VIEW
     let closePlanetView = () => {
-        console.log("close")
         setIsViewOpen(false)
     }
 
@@ -27,7 +25,6 @@ export default function Planets() {
         return <div key={data.id}>
             <img src={data.img}
                 alt={data.name} className="planet-img"
-                id={data.id}
                 width="120"
                 onClick={() => openPlanetView(data.id)}
             />
@@ -37,7 +34,6 @@ export default function Planets() {
     // DISPLAY PLANET DESCRIPTION
     let showPlanet = planets.map(data => {
         if (planetId !== data.id) {
-            // console.log("planetId == data.id:", planetId == data.id)
             return <div key={data.id}>
                 <h3>hmm</h3>
             </div>
@@ -62,7 +58,8 @@ export default function Planets() {
     })
 
     return (
-        <div>
+        <div className='planets' id='planet'>
+            <h2 className='txt-vertical'>planets</h2>
             <ParticlesSky />
             <div className="planets-container">
                 {planetsImg}

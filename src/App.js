@@ -1,17 +1,23 @@
-// import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 import './css/App.css';
-import SolarSystem from './components/SolarSystem';
-import Planets from './pages/Planets';
+import './css/nav.css';
+// import SolarSystem from './components/SolarSystem';
+// import Planets from './pages/Planets';
+import Header from './components/Header';
+import RoutesNavBar from './RoutesNavBar'
+
 
 function App() {
   return (
     <div className="App">
-      <SolarSystem />
-      <Planets />
-      {/* <BrowserRouter>
-        <Navbar />
+      <BrowserRouter>
+        <Header />
+        {/* <SolarSystem /> */}
+        {/* <Home /> */}
+        {/* <Planets /> */}
+        {/* <Navbar /> */}
         <RoutesNavBar />
-      </BrowserRouter> */}
+      </BrowserRouter>
     </div>
   );
 }

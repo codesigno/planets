@@ -4,7 +4,8 @@ import '../css/solar-system.css'
 export default function SolarSystem() {
     return (
         <div className='solar-container'>
-            <div class="orbit-container">
+            <h2 className='txt-vertical'>solar system</h2>
+            <div className="orbit-container">
                 <div id="sun"></div>
                 <div id="mercury-orbit" className="orbit">
                     <div id="mercury"></div>
@@ -35,7 +36,7 @@ export default function SolarSystem() {
                     <div id="pluto"></div>
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
 
