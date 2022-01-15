@@ -2,7 +2,7 @@
 
 ## SPA - React JS App
 
-This project was built with React.js, Particles  and CSS animation [check it out here](https://adelinatalia.github.io/planetss/).
+This project was built with React.js, Particles  and CSS animation [check it out here](https://adelinatalia.github.io/planets/).
 
 ## Preview of planets page
 
@@ -12,7 +12,7 @@ This project was built with React.js, Particles  and CSS animation [check it out
 
 ![screenshot of mercury](./src/assets/img/planets-mercury-screenshot.PNG)
 
-Discover more online at https://adelinatalia.github.io/planetss/
+Discover more online at https://adelinatalia.github.io/planets/
 
 ---
 
