@@ -9,7 +9,6 @@
       width: 1rem;
       height: 0.8rem;
       margin-top: 0.9rem;
-      animation: menu2 1s ease-in;
   }
   .menu span {
       margin: 0 auto;
@@ -61,53 +60,18 @@
       -webkit-transition-delay: 0s, 0.2s; transition-delay: 0s, 0.2s;
   }
   
-  /* hidden menu */
-  .hidden-menu {
-    /* visibility: hidden; */
-    height: 0vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    /* transition: 1s ease-in; */
-    /* animation: menu2 1s ease-in; */
-    animation: menu2link 1s ease-in;
-  }
-  
-  .hidden-menu a {
-    color: rgba(255, 255, 255, 0);
-  }
-  
-  .menu a:hover {
-    color: rgba(255, 255, 255, 0.945);
-  }
-  
-  .hidden-menu:hover {
-    visibility: visible;
-    height: 50vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  
-  @keyframes menu2 {
-    from {
-      visibility: hidden;
-      height: 0vh;
-      color: rgba(255, 255, 255, 0);
-    }
-    to {
-      visibility: visible;
-      height: 50vh;
-      color: #fff;
-    }
-  }
-  
-  @keyframes menu2link {
-    from {
-      color: rgba(255, 255, 255, 0);
-    }
-    to {
-      color: #fff;
-    }
-  }
+/* hidden menu */
+.menu-hidden {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.menu-hidden a {
+  color: rgba(255, 255, 255, 0.945);
+}
+
+.menu-hidden a:hover {
+  color: rgba(194, 232, 235, 0.945);
+}
   
