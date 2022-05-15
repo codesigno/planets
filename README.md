@@ -1,14 +1,14 @@
-# Planets Landing Page
+# React SPA
 
-## SPA - React JS App
+## Landing Page - Planets
 
 This project was built with React.js, Particles  and CSS animation [check it out here](https://adelinatalia.github.io/planets/).
 
-## Preview of planets page
+## Preview of all planets
 
 ![screenshot of one page](./src/assets/img/planets-screenshot.PNG)
 
-### Preview of mercury
+### Preview of specific planet
 
 ![screenshot of mercury](./src/assets/img/planets-mercury-screenshot.PNG)
 
