@@ -2,7 +2,7 @@
 
 ## Landing Page - Planets
 
-This project was built with React.js, Particles  and CSS animation [check it out here](https://adelinatalia.github.io/planets/).
+This project was built with React.js, Particles  and CSS animation [check it out here](https://codesigno.github.io/planets/).
 
 ## Preview of all planets
 
@@ -12,7 +12,7 @@ This project was built with React.js, Particles  and CSS animation [check it out
 
 ![screenshot of mercury](./src/assets/img/planets-mercury-screenshot.PNG)
 
-Discover more online at https://adelinatalia.github.io/planets/
+Discover more online at https://codesigno.github.io/planets/
 
 ---
 
